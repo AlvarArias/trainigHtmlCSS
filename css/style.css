@@ -1,0 +1,55 @@
+body {
+    background-color: red;
+}
+
+img {
+    width: 300px;
+}
+
+.bar {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+.bar2 {
+    width:200px;
+}
+
+.item {
+background-color: aqua;
+overflow: hidden;
+
+}
+
+.my-zoom {
+    transition: transform .25s;
+}
+
+.my-zoom:hover {
+    transform: scale(1.25);
+    cursor: grab;
+
+}
+
+.anim1 {
+    transition: transform 5s;
+    opacity: 0.25;
+}
+
+.anim1:hover {
+    opacity: 1;
+}
+
+/* font*/
+@font-face {
+    font-family: AFLFont;
+    src: url(/Labified_Graphics_WorkTest_Alvar/Fonts/AFLFont/aflfont.otf);
+}
+
+* {
+    font-family: AFLFont;
+}

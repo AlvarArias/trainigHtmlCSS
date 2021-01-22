@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>test 2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <script src="lib/jquery.zoom.min.js"></script>
+         <link href="bootstrap-3.3.7/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
+         <script src="lib/jquery.zoom.min.js"></script>
+         <script src="zoomsl-master/js/zoomsl-3.0.min.js"></script>
+
+        <h1>Testing zoom library</h1>
+
+        <div class="container mt-5 mb-5" style="background-color: blue;">
+
+            <div class="row" style="width: 370px;background-color: red;">
+                <div id="my-image1"class="col-md-6">
+
+                    <img src="img/img2.jpg"  style="width:570px" alt="">
+
+                </div>
+
+                <div id="my-image2" class="col-md-6">
+
+                    <img src="img/img2.jpg"  style="width:370px" alt="">
+
+               </div>
+
+                
+
+               
+                   
+            </div>
+
+
+         </div>
+
+
+        <script>
+            $('#my-image1').zoom(); // add zoom
+             $('#my-image2').zoom(); // add zoom
+        </script>
+
+        
+        
+
+    </body>
+</html>
